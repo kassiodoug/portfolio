@@ -18,10 +18,7 @@ export default function Header() {
         onClick={toggleMenu}
       ></button>
       {isMenuOpen && (
-        <ul
-          className={`absolute top-24 left-0 flex h-[calc(100vh-6rem)] w-full transform flex-col items-center bg-[rgb(10,10,10)] p-0 text-lg text-gray-400 transition-transform lg:hidden ${isMenuOpen ? "opacity-100" : "opacity-0"}`}
-          style={{ transition: "transform 0.3s ease, opacity 0.3s ease" }}
-        >
+        <ul className="absolute top-24 left-0 flex h-[calc(100vh-6rem)] w-full flex-col items-center bg-[rgb(10,10,10)] p-0 text-lg text-gray-400 lg:hidden">
           <NavLinks />
         </ul>
       )}
