@@ -3,7 +3,7 @@
 
 body {
   background-color: rgb(10, 10, 10);
-  color: var(--color-gray-200);
+  color: var(--color-gray-400);
   font-family: "Geist", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
