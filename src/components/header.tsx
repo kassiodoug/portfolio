@@ -18,7 +18,7 @@ export default function Header() {
       ></button>
       {isMenuOpen && (
         <ul
-          className={`absolute top-20 left-0 flex w-full transform flex-col items-center bg-amber-500 p-0 text-lg font-semibold transition-transform delay-700 md:hidden ${isMenuOpen ? "opacity-100" : "opacity-0"}`}
+          className={`absolute top-24 left-0 flex h-[calc(100vh-6rem)] w-full transform flex-col items-center bg-[rgb(10,10,10)] p-0 text-lg transition-transform delay-700 md:hidden ${isMenuOpen ? "opacity-100" : "opacity-0"}`}
           style={{ transition: "transform 0.3s ease, opacity 0.3s ease" }}
         >
           <li className="w-full px-6 py-2">
