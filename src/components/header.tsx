@@ -1,6 +1,6 @@
-import { useState } from "react";
-import Navbar from "./navbar";
 import NavLinks from "./nav-links";
+import Navbar from "./navbar";
+import { useState } from "react";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <header className="m-auto flex items-center justify-between gap-6 border-b border-gray-800 px-8 py-6 lg:px-32">
-      <section className="h-10 w-10 bg-amber-600"></section>
+      <section className="text-2xl font-medium text-gray-200">Douglas</section>
       <Navbar />
       <button
         className="h-10 w-10 bg-amber-600 lg:hidden"
