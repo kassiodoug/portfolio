@@ -1,13 +1,15 @@
-import Header from "./components/header";
-import HeroAboutMe from "./components/hero-aboutme";
-import HeroProjects from "./components/hero-projects";
+import AboutMe from "./components/AboutMe";
+import Header from "./components/Header";
+import Projects from "./components/Projects";
 
 function App() {
   return (
     <>
       <Header />
-      <HeroAboutMe />
-      <HeroProjects />
+      <main>
+        <AboutMe />
+        <Projects />
+      </main>
     </>
   );
 }

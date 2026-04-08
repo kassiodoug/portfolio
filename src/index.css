@@ -1,6 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
 @import "tailwindcss";
 
+@theme {
+  --bg-dark: hsl(var(--bg-dark-q));
+  --color: hsl(var(--color-q));
+}
+
+@layer base {
+  :root {
+    --bg-dark: 210 40% 98%;
+    --color: ;
+  }
+
+  .dark {
+    --bg-dark: 222 47% 4%;
+    --color: hsl(var(--color-blue-400));
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply transition-colors duration-300;
+  }
+}
+
 body {
   background-color: rgb(10, 10, 10);
   color: var(--color-gray-400);

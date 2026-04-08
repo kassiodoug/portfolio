@@ -1,5 +1,6 @@
-import NavLinks from "./nav-links";
-import Navbar from "./navbar";
+import NavLinks from "./NavLinks";
+import Navbar from "./Navbar";
+import { cn } from "@/lib/utils";
 import { useState } from "react";
 
 export default function Header() {
@@ -18,7 +19,14 @@ export default function Header() {
         onClick={toggleMenu}
       ></button>
       {isMenuOpen && (
-        <ul className="absolute top-24 left-0 flex h-[calc(100vh-6rem)] w-full flex-col items-center bg-[rgb(10,10,10)] p-0 text-lg text-gray-400 lg:hidden">
+        <ul
+          className={cn(
+            "absolute top-24 left-0 flex h-[calc(100vh-6rem)] w-full flex-col items-center bg-[rgb(10,10,10)]/95 backdrop-blur-md p-0 text-lg text-gray-200/70 lg:hidden transition-all duration-200",
+            isMenuOpen
+              ? "opacity-100 pointer-events-auto"
+              : "opacity-0 pointer-events-none",
+          )}
+        >
           <NavLinks />
         </ul>
       )}
