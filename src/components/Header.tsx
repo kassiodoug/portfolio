@@ -12,7 +12,9 @@ export default function Header() {
 
   return (
     <header className="m-auto flex items-center justify-between gap-6 border-b border-gray-800 px-8 py-6 lg:px-32">
-      <section className="text-2xl font-medium text-gray-200">Douglas</section>
+      <section className="w-8 h-8 ring-2 ring-gray-200 font-mono rounded-full flex justify-center items-center font-semibold text-xl text-gray-200">
+        KD
+      </section>
       <Navbar />
       <button
         className="h-10 w-10 bg-amber-600 lg:hidden"
