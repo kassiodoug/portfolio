@@ -2,19 +2,19 @@
 @import "tailwindcss";
 
 @theme {
-  --bg-dark: hsl(var(--bg-dark-q));
-  --color: hsl(var(--color-q));
+  --bg-dark: var(--bg);
+  --color-fg: var(--c-fg);
 }
 
 @layer base {
   :root {
-    --bg-dark: 210 40% 98%;
-    --color: ;
+    --bg: var(--color-gray-100);
+    --c-fg: var(--color-gray-800);
   }
 
   .dark {
-    --bg-dark: 222 47% 4%;
-    --color: hsl(var(--color-blue-400));
+    --bg: rgb(10, 10, 10);
+    --c-fg: var(--color-gray-400);
   }
 
   html {
@@ -23,13 +23,10 @@
 
   body {
     @apply transition-colors duration-300;
+    background-color: var(--bg);
+    color: var(--c-fg);
+    font-family: "Geist", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
   }
-}
-
-body {
-  background-color: rgb(10, 10, 10);
-  color: var(--color-gray-400);
-  font-family: "Geist", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
