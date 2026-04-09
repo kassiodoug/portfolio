@@ -1,15 +1,15 @@
 import Container from "./Container";
 
-const projects = [
-  {
-    image: "",
-    title: "",
-    description: "",
-    demoUrl: "",
-    githubUrl: "",
-    stack: ["TypeScript", "React"],
-  },
-];
+// const projects = [
+//   {
+//     image: "",
+//     title: "",
+//     description: "",
+//     demoUrl: "",
+//     githubUrl: "",
+//     stack: ["TypeScript", "React"],
+//   },
+// ];
 
 export default function Projects() {
   return (

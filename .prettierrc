@@ -3,6 +3,5 @@
     "prettier-plugin-tailwindcss",
     "@trivago/prettier-plugin-sort-imports"
   ],
-  "printWidth": 80,
-  "formatOnSave": true
+  "printWidth": 80
 }
