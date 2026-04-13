@@ -18,6 +18,7 @@ export default function Header() {
       <Navbar />
       <button
         className="h-10 w-10 bg-amber-600 lg:hidden"
+        area-label="Abre menu"
         onClick={toggleMenu}
       ></button>
       {isMenuOpen && (
