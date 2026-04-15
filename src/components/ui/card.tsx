@@ -8,7 +8,7 @@ export default function Card({
     <section
       data-slot="card"
       className={cn(
-        "bg-card text-card-foreground flex flex-col gap-6 border border-gray-800 py-6 shadow-sm",
+        "text-card-foreground flex flex-col gap-6 rounded-md px-4 border border-gray-700/90 py-6 shadow-sm",
         className,
       )}
       {...props}
