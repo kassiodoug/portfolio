@@ -4,7 +4,7 @@ import IconGithub from "./icons/IconGithub";
 export default function Hero() {
   return (
     <Container>
-      <section className="flex w-full items-center justify-center gap-10 text-center">
+      <section className="flex w-full h-[calc(100vh*0.75)] items-center justify-center gap-10 text-center">
         <section className="space-y-4">
           <span className="w-full text-sm">Bem-vindo(a) ao portfólio de</span>
           <h1 className="text-5xl font-semibold animate-fade-in text-gray-200 my-name">
