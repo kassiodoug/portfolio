@@ -1,9 +1,9 @@
 const links = [
-  { name: "Início", href: "/" },
+  { name: "Início", href: "#hero" },
   { name: "Sobre mim", href: "#aboutme" },
   { name: "Skills", href: "#skills" },
   { name: "Projetos", href: "#projects" },
-  { name: "Contato", href: "#contact" },
+  // { name: "Contato", href: "#contact" },
 ];
 
 export default function NavLinks() {

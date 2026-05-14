@@ -4,10 +4,15 @@ import Card from "./ui/Card";
 const skills = [
   { name: "HTML", url: "https://developer.mozilla.org/en-US/docs/Web/HTML" },
   { name: "CSS", url: "https://developer.mozilla.org/en-US/docs/Web/CSS" },
+  { name: "SCSS", url: "https://sass-lang.com/" },
   { name: "TypeScript", url: "https://www.typescriptlang.org/" },
   {
     name: "JavaScript",
     url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  },
+  {
+    name: "JQuery",
+    url: "https://jquery.com/",
   },
   { name: "React", url: "https://react.dev/" },
   { name: "Next.js", url: "https://nextjs.org/" },
@@ -29,6 +34,10 @@ const skills = [
   { name: "Laravel", url: "https://laravel.com/" },
   { name: "Python", url: "https://www.python.org/" },
   { name: "Docker", url: "https://www.docker.com/" },
+  {
+    name: "Redis",
+    url: "https://redis.io/",
+  },
 ];
 
 export default function Skills() {
