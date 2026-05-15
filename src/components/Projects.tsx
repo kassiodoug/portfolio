@@ -30,6 +30,7 @@ export default function Projects() {
             >
               <section className="w-full h-48 absolute left-0 top-0 overflow-hidden">
                 <img
+                  loading="lazy"
                   className="border-none object-cover"
                   src={project.image.src}
                   alt={project.image.alt}
