@@ -17,11 +17,7 @@ export default function Hero() {
           </p>
 
           <section className="flex justify-center">
-            <a
-              href="https://github.com/kassiodoug"
-              target="_blank"
-              area-label="Acesse meu github"
-            >
+            <a href="https://github.com/kassiodoug" target="_blank">
               <IconGithub className="fill-gray-100" />
             </a>
           </section>
